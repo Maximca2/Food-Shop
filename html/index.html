@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mynerve:regular"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="body hower__body">
+    <div class="sticky-top ">
+      <div class="header ">
+        <header class="header__span">
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </header>
+        <div class="header__logo">
+            <img src="../header-img/header-logo.svg" alt="Logo" />
+        </div>
+        
+        <div class="container">
+
+          
+          
+          <div class="menu">
+            <div class="menu__header">
+              
+            
+              
+            </div>
+            <div class="header__box-burger">
+              <nav class="navif">
+                <ul class="heade__b-list">
+                  <li><a href="#">Меню</a></li>
+                  <li><a href="#">Про нас</a></li>
+                  <li><a href="#">франшиза</a></li>
+                  <li><a href="#">контакты</a></li>
+                  <li><a href="#">работа</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__logo2">
+              <img src="../header-img/header-logo.svg" alt="Logo2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 pb-20 pt-12 text-black-50 col-mt-20 mb-30">
+              
+              <div class="d-flex bd-highlight header__region region-header">
+                <div class="p-2 flex-grow-1  region-header__img">
+                  <a href="#">
+                    <img class="header__point-svg"
+                    src="../header-img/header-point.svg"
+                    alt="region-point"
+                  /><text>ВАШ РЕГІОН</text>
+                  <img class="region__arrow-img" src="../header-img/arrow-to-b.svg" alt="region-arrow" />
+                </div>
+                  </a>
+                <div class="region-header-box">
+                  <div class="p-2 bd-highlight region-header__item">
+                   <text>корзина (0)</text> 
+                    <img src="../header-img/basket.svg" alt="header-basket" />
+                  </div>
+                  <div class="p-2 bd-highlight region-header__item">
+                    <text>увійти</text>  <img src="../header-img/sun .svg" alt="header-sun" />
+                  </div>
+                </div>
+              </div>
+              <div class="header__region region-header">
+                <div class="header__navigation navigation-header">
+                  <ul class="d-flex navigation-header-list">
+                    <li class="navigation-header-item">
+                      <a href="juice.html">соки</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">мікси</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">смузі</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">ласси</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">детокс</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">боулі</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">салати</a>
+                    </li>
+                    <li class="navigation-header-item">
+                      <a href="#">здорова їжа</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="region-header-box-two">
+                  <div class="bd-highlight region-header-box-item">про нас</div>
+                  <div class="bd-highlight region-header-box-item">
+                    франшиза
+                  </div>
+                  <div class="bd-highlight region-header-box-item">
+                    контакти
+                  </div>
+                  <div class="bd-highlight region-header-box-item">робота</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__decore">
+          <img src="../header-img/header-decore.svg" alt="decore" />
+        </div>
+      </div>
+    </div>
+    <section class="slider  ">
+      
+        <div class="row">
+          <div class="col-12">  
+            <div class="slider__box">
+              <div class="modal__window overflow-hidden">
+                <div class="header__content">
+                  <div class="header__content-text">
+                    Вхід на Сайт
+                  </div>
+                  <div class="header__content-text-img">
+                    <a href="#">
+                      <img src="../modal__img-close/Clouse.svg" alt="close">
+                    </a>
+                  </div>
+                </div>
+                <div class="header__content-modal-box box-modal__content-header position-relative ">
+                  <div class="box-m2 ">
+                    <form class="modal-form">
+                      <div class="box1-m d-flex">
+                        <label class="box-modal__content-header-name" for="fname">Ім'я</label><br>
+                        <div class="m-box">
+                          <input class="input-m" type="text" id="fname" name="fname"><br>
+                          <div class="box-box">
+                            <div class="header__decores w-25">
+                              <img src="../header-img/header-decore.svg" alt="decore" />
+                             </div>
+                          </div>
+                        </div>             
+                      </div>
+                      <div class="box1-m d-flex align-content-center">
+                        <label class="box-modal__content-header-name" for="fname">Телефон</label><br>
+                        <div class="m-box2">
+                          <input class="input-m" type="text" id="fname" name="fname"><br>
+                        <div class="box-box">
+                            <div class="header__decores w-25">
+                              <img src="../header-img/header-decore.svg" alt="decore" />
+                             </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box1-m d-flex ">
+                        <label class="box-modal__content-header-name" for="fname">Вислати код</label><br>
+                        <div class="m-box2">
+                         <div class="modal__exepting">
+                            Продовжуючи Ви погоджуєтесь з угодою та політикою обробки персональних даних
+                         </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="box__continue">
+                    <div class="btn__continue-modal">
+                      <a href="#">
+                        <img src="../modal__img-close/continue.svg" alt="continue-btn">
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+                <div class="slider__item">
+                  <img src="../slider__img/Banner.png" alt="first-slider-img">
+                </div>
+                <div class="slider__item">
+                  <img src="../slider__img/Banner2.png" alt="second-slider-img">
+                </div>
+                <div class="slider__item">
+                  <img src="../slider__img/Banner3.png" alt="third-slider-img">
+                </div>
+              </div>
+              <div class="slider__tolls tools-slider">
+                <div class="tools-slider__box">
+                  <div class="tools-slider__btn left">
+                    <a>
+                      <img src="../slider__img/btn-left.svg" alt="btn-left">
+                    </a>
+                  </div>
+                  <div class="tools-slider__box-tolkit ">
+                    <div class="toolkit-item ">
+                      
+                    </div>
+                    <div class="toolkit-item">
+                      
+                    </div>
+                    <div class="toolkit-item">
+                      
+                    </div>
+                  </div>
+                  <div class="tools-slider__btn right">
+                    <a>
+                      <img src="../slider__img/btn-rigt.svg" alt="btn-right">
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+          </div>
+            
+          </div>
+         
+      </div>
+      <div class="header__decore">
+          <img src="../header-img/header-decore.svg" alt="decore" />
+      </div>
+      <div class="header__decore-text text-center">
+        наша продукція
+      </div>
+      <div class="header__decore">
+        <img src="../header-img/header-decore.svg" alt="decore"/>
+    </div>
+        
+    </section>
+    <main>
+      <section class="production">
+        <div class="container">
+          <div class="row">
+            <div class="production__box gap-5">
+              <div class="col">
+                <div class="production__img">
+                  <img src="../production__img/bg-production.png" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+              <div class="production__cards cards__pr d-flex flex-wrap">
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/juise.png" alt="juise">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    соки
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/мікси.jpg" alt="mixes">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    мікси
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/смузі.jpg" alt="smuzi">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    смузі
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards ">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/ласи.jpg" alt="lasy">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    ласси
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/детокс.jpg" alt="detoks">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    детокс
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/боули.jpg" alt="boly">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    боулі
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/салати.jpg" alt="salate">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    салати
+                  </div>
+                </div>
+                <div class="cards__pr-item item-pr-cards">
+                  <div class="item-pr-cards__img">
+                    <img src="../production__img/fresh-food.jpg" alt="fresh-food">
+                  </div>
+                  <div class="item-pr-cards__info">
+                    здорова їжа
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+                
+                  
+                
+                  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <div class="header__decore tr">
+        <img src="../header-img/header-decore.svg" alt="decore" />
+      </div>
+      <div class="header__decore-text text-center">
+        хіти продажі
+      </div>
+      <div class="header__decore tr4 mb-5">
+        <img src="../header-img/header-decore.svg" alt="decore" />
+    </div>
+    <section class="slider2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="slider__header header__slider-items d-flex justify-content-center">
+                <div class="header__slider-items-btn btn-left">
+                  <a href="#">
+                    <img class="region__arrow-img arrow" src="../header-img/arrow-to-b.svg" alt="region-arrow" />
+                  </a>
+                </div>
+                <div class="header__slider-items-box d-flex align-baseline position-relative">
+                  <div class="header__slider-items-it d-flex active-slide">
+                    <div class="header__slider-items-img">
+                      <img src="../slider2_img/lasy.jpg" alt="Lasy">
+                    </div>
+                    <div class="header__slider-items-descr">
+                      ласси
+                    </div>
+                    <div class="header__slider-items-litrs text-center">
+                      500ml
+                    </div>
+                    <div class="header__slider-items-price text-center ">
+                      375гр
+                      <img src="../slider2_img/heart.svg"class="heart" alt="heart-like">
+                      
+                    </div>
+                    <div class="header__slider-items-btn-in-basket text-center">
+                      <a href="#">
+                        в корзину
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header__slider-items-it d-flex">
+                    <div class="header__slider-items-img">
+                      <img src="../slider2_img/mix.jpg" alt="Lasy">
+                    </div>
+                    <div class="header__slider-items-descr">
+                      микс
+                    </div>
+                    <div class="header__slider-items-litrs text-center">
+                      500ml
+                    </div>
+                    <div class="header__slider-items-price text-center">
+                      400гр
+                      
+                    </div>
+                    <div class="header__slider-items-btn-in-basket text-center">
+                      <a href="#">
+                        в корзину
+                      </a>
+                    </div>
+                  </div>
+                  <div class="header__slider-items-it d-flex">
+                    <div class="header__slider-items-img">
+                      <img src="../slider2_img/boul.jpg" alt="Lasy">
+                    </div>
+                    <div class="header__slider-items-descr">
+                      боул
+                    </div>
+                    <div class="header__slider-items-litrs text-center">
+                      500ml
+                    </div>
+                    <div class="header__slider-items-price text-center">
+                      450гр
+                      
+                      <img src="../slider2_img/heart.svg" class="heart" alt="heart-like">
+                      
+                    </div>
+                    <div class="header__slider-items-btn-in-basket text-center ">
+                      <a href="#">
+                        в корзину
+                      </a>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="header__slider-items-btn btn-right">
+                  
+                  <a href="#">
+                    <img class="region__arrow-img arrow" src="../header-img/arrow-to-b.svg" alt="region-arrow" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+    </section>
+    <div class="header__decore dec5">
+      <img src="../header-img/header-decore.svg" alt="decore" />
+  </div>
+  <div class="header__decore-text text-center">
+    доставка і оплата
+  </div>
+  <div class="header__decore ">
+    <img src="../header-img/header-decore.svg" alt="decore" />
+</div>
+
+<section class="delivery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="deliver__box box-delivery d-flex justify-content-between">
+          <div class="box-delivery__content content-delivery-box">
+            <div class="content-delivery-box__text">
+              Зона доставки
+            </div>
+            <div class="content-delivery-box__box-it it-delivery-box d-flex">
+              <div class="it-delivery-box__item">
+                <div class="it-delivery-box__text-book">
+                  Мінімальна сума замовлення 500 грн.
+                </div>
+              </div>
+              <div class="it-delivery-box__item">
+                <div class="it-delivery-box__text-book">
+                  Мінімальна сума замовлення 750 грн.
+                </div>
+              </div>
+              <div class="it-delivery-box__item">
+                <div class="it-delivery-box__text-book">
+                  Мінімальна сума замовлення 1000 грн.
+                </div>
+              </div>
+            </div>
+           
+            <div id="map" class="content-delivery-box__map">
+            </div>
+            <div class="content-delivery-box__text">
+              варіанти оплати
+            </div>
+            <div class="delivery__content-box-buy buy-box d-flex">
+              <div class="delivery__content-box-buy">
+                <div class="buy-box__img">
+                  <img src="../delivey__img/by_cash.svg" alt="">
+                </div>
+                <div class="buy-box__descr">
+                  готівкою
+                </div>
+                <div class="buy-box__text">
+                  Оплата готівкою кур'єру або при отриманні замовлення
+                </div>
+              </div>
+              <div class="delivery__content-box-buy">
+                <div class="buy-box__img">
+                  <img src="../delivey__img/by_cash.svg" alt="">
+                </div>
+                <div class="buy-box__descr">
+                  Картою
+                </div>
+                <div class="buy-box__text">
+                  Оплата банківською карткою кур'єру при отриманні замовлення
+                </div>
+              </div>
+              <div class="delivery__content-box-buy">
+                <div class="buy-box__img">
+                  <img src="../delivey__img/by_cash.svg" alt="">
+                </div>
+                <div class="buy-box__descr">
+                  Онлайн-оплата
+                </div>
+                <div class="buy-box__text">
+                  Безпечна та зручна оплата замовлення на сайті.
+                </div>
+              </div>
+            </div>
+            <div class="content-delivery-box__text">
+              способи доставки
+
+            </div>
+            <div class="delivery__content-box-buy buy-box d-flex">
+              <div class="delivery__content-box-buy">
+                <div class="buy-box__img">
+                  <img src="../delivey__img/by_cash.svg" alt="">
+                </div>
+                <div class="buy-box__descr">
+                  кур'єром
+                </div>
+                <div class="buy-box__text">
+                  Ви оплачуєте тільки замовлення, доставка безкоштовно
+                </div>
+              </div>
+              <div class="delivery__content-box-buy">
+                <div class="buy-box__img">
+                  <img src="../delivey__img/by_cash.svg" alt="">
+                </div>
+                <div class="buy-box__descr">
+                  самовивіз
+                </div>
+                <div class="buy-box__text">
+                  Можете забрати замовлення, вказавши це при оформленні замовлення.
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="box-delivery__img">
+            <!-- <img src="../delivey__img/быстро и бесплатно!.jpg" alt=""> -->
+            <img src="../delivey__img/men.png" alt="delivery-men">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="header__decore tr6">
+  <img src="../header-img/header-decore.svg" alt="decore" />
+</div>
+<div class="header__decore-text text-center">
+  наша система лояльності
+</div>
+<div class="header__decore">
+  <img src="../header-img/header-decore.svg" alt="decore" />
+</div>
+<section class="loyality">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="loyality__box d-flex ">
+          <div class="loyality__card card-loyality">
+            <div class="card-loyality__header card-loyality-header d-flex">
+              <div class="card-loyality-header__box1 box1-header-loyality-card d-flex">
+                <div class="box1-header-loyality-card__logo d-flex">
+                 <img  src="../header-img/header-logo.svg" alt="logo-card">
+                 <div class="box1-header-loyality-card__name">
+                  Віта Джус
+                 </div>
+                </div>
+              </div>
+              <div class="card-loyality-header__box2">
+                <div class="box1-header-loyality-card__balance">
+                  Баланс
+                </div>
+                <p>500</p>
+              </div>
+            </div>
+            
+            <div class="loyality__card-img">
+              <img src="../loyality__img/Cocteils.png" alt="cocteils-decore">
+            </div>
+            <div class="loyality__card-personalize personalize-card-loyality">
+              <div class="personalize-card-loyality__owner">
+                Власник
+              </div>
+              <div class="personalize-card-loyality__name-surname">
+                Ім'я Прізвище
+              </div>
+            </div>
+            <div class="loyality__card-img-code">
+              <img src="../loyality__img/barcode.svg" alt="">
+            </div>
+          </div>
+          <div class="loyality__content content-loyality">
+            <div class="content-loyality-text-get">
+              з картою ви получете
+            </div>
+            <div class="content-loyality-box box-loyality-content">
+              <div class="box-loyality-content__it d-flex">
+                <img src="../loyality__img/phone.svg" alt="in-phone-ever">
+              <p>Завжди у вашому телефоні</p>
+              </div>
+              <div class="box-loyality-content__it d-flex">
+                <img src="../loyality__img/gift.svg" alt="take-part-in-discount-and-take-gifts">
+              <p>Беріть участь в акціях і получайте подарунки</p>
+              </div>
+              <div class="box-loyality-content__it d-flex">
+                <img src="../loyality__img/cocteil.svg" alt="every-fifth-drank-free">
+              <p>Кожен 5-й напиток безплатно</p>
+              </div>
+            </div>
+            <div class="loyality__issue issue-loyality d-flex">
+              <div class="issue-loyality-text">
+                хочете оформити?
+              </div>
+              <div class="issue-loyality__btn">
+                <a href="#">
+                  отримати
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+      <div class="header__decore ">
+        <img src="../header-img/header-decore.svg" alt="decore" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-info__text d-flex justify-content-around ">
+            Правова інформація
+          </div>
+          <div class="footer-info__text-content-box d-flex">
+            <div class="footer-info__text-content-box1">
+              <div class="box-content-text-link">
+                <a href="#">
+                  Усі права належать
+                </a>
+              </div>
+              <div class="box-content-text-link">
+                <a href="#">
+                  ТОВ «Компанія Віта Джус»
+                </a>
+              </div>
+              <div class="box-content-text-link">
+                <a href="#">
+                  ІПН 12456789/ОГРН123456789833
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-info__text-content-box2 d-flex">
+              <div class="box-content1 ">
+                <div class="box2-content-text-item">
+                  <a href="#">
+                    Публічна оферта
+                  </a>
+                </div>
+                <div class="box2-content-text-item">
+                  <a href="#">
+                    Політика конфіденційності
+                  </a>
+                </div>
+              </div>
+              
+              <div class="box-content2">
+                <div class="box2-content-text-item">
+                  <a href="#">
+                   Користувача угода
+                  </a>
+                </div>
+                <div class="box2-content-text-item">
+                  <a href="#">
+                    Бонусна програма
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer__main">
+      <div class="main__footer-tittle">
+        приєднуйтесь до vita juice
+      </div>
+      <div class="main__footer-box-link d-flex">
+        <div class="link-box-footer">
+          <a href="#">
+            <img src="../loyality__img/vk.svg" alt="">
+          </a>
+        </div>
+        <div class="link-box-footer">
+          <a href="#">
+            <img src="../loyality__img/instagram .svg" alt="">
+          </a>
+        </div>
+        <div class="link-box-footer">
+          <a href="#">
+            <img src="../loyality__img/facebook.svg" alt="facebook">
+          </a>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+      <script type="module"  src="../module.js/CreateBasket.js"></script>
+    <!-- <script type="module"  src="../module.js/CreateCartList.js"></script> -->
+    <!-- <script type="module" src="../js/juice.js"></script> -->
+    <script type="module" src="../js/script.js"></script>
+  </body>
+</html>
